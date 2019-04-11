@@ -12,21 +12,21 @@ namespace CurrencyFormatter
     {
         static void Main(string[] args)
         {
-            decimal a;
-            decimal b;
-            decimal c;
+            double a;
+            double b;
+            double c;
 
-            decimal total;
-            decimal average;
-            decimal smallest;
-            decimal largest;
+            double total;
+            double average;
+            double smallest;
+            double largest;
 
-            Console.WriteLine("Enter first dollar amount.");
-            a = Convert.ToDecimal(Console.ReadLine());
-            Console.WriteLine("Enter second dollar amount.");
-            b = Convert.ToDecimal(Console.ReadLine());
-            Console.WriteLine("Enter third dollar amount.");
-            c = Convert.ToDecimal(Console.ReadLine());
+            Console.WriteLine("Enter the first dollar amount.");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the second dollar amount.");
+            b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the third dollar amount.");
+            c = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("You entered the following:");
             Console.WriteLine(a + ", " + b + ", " + c);
@@ -36,11 +36,11 @@ namespace CurrencyFormatter
             smallest = Math.Min(Math.Min(a, b), c);
             largest = Math.Max(Math.Max(a, b), c);
 
-            Console.WriteLine("The Average: " + average);
-            Console.WriteLine("The Smallest: " + smallest);
-            Console.WriteLine("The Largest: " + largest);
+            Console.WriteLine("\nThe average is: " + average);
+            Console.WriteLine("The smallest is: " + smallest);
+            Console.WriteLine("The largest is: " + largest);
             Console.WriteLine("");
-            Console.WriteLine("US: " + total.ToString("C2"));
+            Console.WriteLine("\nUS: " + total.ToString("C2"));
             //Console.WriteLine("Swedish: " + total.ToString("C2"));
             Console.WriteLine("Swedish: " + total.ToString("C", CultureInfo.CreateSpecificCulture("sv-SE")));
             //Console.WriteLine("C2".ToString("C2", CurrentCulture));
