@@ -1,0 +1,7 @@
+C:\Users\Callista\Dropbox\C#\Deliverable 1\Fun Recommendations\Fun Recommendations\bin\Debug\Fun Recommendations.exe.config
+C:\Users\Callista\Dropbox\C#\Deliverable 1\Fun Recommendations\Fun Recommendations\bin\Debug\Fun Recommendations.exe
+C:\Users\Callista\Dropbox\C#\Deliverable 1\Fun Recommendations\Fun Recommendations\bin\Debug\Fun Recommendations.pdb
+C:\Users\Callista\Dropbox\C#\Deliverable 1\Fun Recommendations\Fun Recommendations\obj\Debug\Fun Recommendations.csprojAssemblyReference.cache
+C:\Users\Callista\Dropbox\C#\Deliverable 1\Fun Recommendations\Fun Recommendations\obj\Debug\Fun Recommendations.csproj.CoreCompileInputs.cache
+C:\Users\Callista\Dropbox\C#\Deliverable 1\Fun Recommendations\Fun Recommendations\obj\Debug\Fun Recommendations.exe
+C:\Users\Callista\Dropbox\C#\Deliverable 1\Fun Recommendations\Fun Recommendations\obj\Debug\Fun Recommendations.pdb
